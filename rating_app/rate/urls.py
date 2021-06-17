@@ -7,5 +7,5 @@ urlpatterns = [
     path('about/', AboutView.as_view(), name='rate-about'),
     path('categories/', CategoryListView.as_view(), name='rate-categories'),
     path('criteria/<int:pk>/', CriteriaListView.as_view(), name='rate-criteria'),
-    path('subcriteria/', SubcriteriaListView.as_view(), name='rate-criteria'),
+    path('subcriteria/', SubcriteriaListView.as_view(), name='rate-subcriteria'),
 ]
